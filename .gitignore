@@ -70,5 +70,9 @@ poetry.lock
 
 docs/_build/
 examples/output/
+
+output/*
+!output/favicon.ico
+
 # Exclude downloaded images
 examples/content/galleries/**/*.[jJ][pP][gG]

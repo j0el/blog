@@ -1,6 +1,6 @@
 AUTHOR = "Joel Berman"
 SITENAME = "joelberman.net"
-# SITEURL = "http://joelberman.net"
+SITEURL = "http://joelberman.net"
 
 PATH = "content"
 
@@ -27,7 +27,7 @@ PHOTO_WATERMARK_TEXT = "©2022 Joel Berman"
 PHOTO_EXIF_COPYRIGHT = "CC-BY-SA"
 #PHOTO_ARTICLE = (760, 506, 80)
 PHOTO_ARTICLE = (380, 253, 80)
-PHOTO_THUMB = (192, 144, 60)
+# PHOTO_THUMB = (192, 144, 60)
 PHOTO_GALLERY = (1024, 768, 80)
 PHOTO_EXIF_COPYRIGHT_AUTHOR = 'Joel Berman'
 
@@ -40,20 +40,17 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
-)
+#LINKS = (
+#    ("Pelican", "https://getpelican.com/")
+#)
 
 # Social widget
-SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
-)
+#SOCIAL = (
+#    ("You can add links in your config file", "#"),
+#    ("Another social link", "#"),
+#)
 
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+RELATIVE_URLS = True

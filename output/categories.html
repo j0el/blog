@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>joelberman.net - Categories</title>
+        <link rel="stylesheet" href="./theme/css/main.css" />
+        <!-- >>>> Start >>>>> PHOTO plugin: lightbox style >>>>>>>>> -->
+        <link rel="stylesheet" href="./theme/css/magnific-popup.css" />
+        <!-- <<<< End <<<<< PHOTO plugin: lightbox style <<<<<<<<< -->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="./">joelberman.net</a></h1>
+                <nav><ul>
+                    <li><a href="./pages/contacts.html">Contacts</a></li>
+                    <li><a href="./category/bio.html">Bio</a></li>
+                    <li><a href="./category/gallery.html">Gallery</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+    <h1>Categories on joelberman.net</h1>
+    <ul>
+        <li><a href="./category/bio.html">Bio</a> (1)</li>
+        <li><a href="./category/gallery.html">Gallery</a> (3)</li>
+    </ul>
+        <section id="extras" class="body">
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+<!-- >>>> Start >>>>> PHOTO plugin: lightbox script >>>>>>>>> -->
+
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+<script src="./theme/js/zepto.min.js"></script>
+
+<!-- Magnific Popup core JS file -->
+<script src="./theme/js/magnific-popup.min.js"></script>
+<script>
+$('.gallery').magnificPopup({
+	delegate: 'a',
+	type: 'image',
+	gallery: {
+		enabled: true,
+		navigateByImgClick: true,
+		preload: [1,2]
+	},
+	image: {
+		titleSrc: function(item) {
+			if (item.el.attr('caption') && item.el.attr('exif')) {
+				return (item.el.attr('caption').replace(/\\n/g, '<br />') +
+					'<small>' + item.el.attr('title') + ' - ' + item.el.attr('exif') + '</small>');
+			}
+		return item.el.attr('title') + '<small>' + item.el.attr('exif') + '</small>';
+	} }
+});
+</script>
+<!-- >>>> Start >>>>> PHOTO plugin: lightbox script >>>>>>>>> --></body>
+</html>

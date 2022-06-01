@@ -31,12 +31,12 @@ def get_exif(image_path):
         return None
 
 
-
 def exposure(ExposureTime):
-try:
-return( str(Fraction(ExposureTime)))
-except:
-return('None')
+    try:
+        return(str(Fraction(str(ExposureTime))))
+    
+    except:
+        return('None')
 
 
 #Creates a text file with some exif meta data.
@@ -55,7 +55,7 @@ def write_exif_file(directory):
                 os.path.join(file) + ': ' + 
                 str(image.get('Model')) + 
                 ' with a ' + str(image.get('LensModel')) + 
-                ' - ' + exposure(image.get('ExposureTime')) + 's, ' + # I want to change this to fractions, but it works for now.
+                ' - ' + exposure(image.get('ExposureTime')) + ' s, ' + # I want to change this to fractions, but it works for now.
                 'f/' + str(image.get('FNumber')) + 
                 ' at ISO-' +  str(image.get('ISOSpeedRatings')) + 
                 '\n'
@@ -67,7 +67,7 @@ def write_exif_file(directory):
 
 # The directory of the source photos, the same as PHOTO_LIBRARY in pelicanconf.py
 # I run this in a WSL instance, but pelican is run on the host windows machine, hence the sample directory
-dir = '/mnt/c/Users/jeff/Pictures' 
+dir = '/home/jberman/blog/content/galleries' 
 
 # This walks through the directories and for each it calls the write exif file function
 for root, subdirectories, files in os.walk(dir):

@@ -1,0 +1,12 @@
+_R0A1196.jpg: Canon EOS R5 with a RF100-500mm F4.5-7.1 L IS USM + EXTENDER RF2x - 1/1600 s, f/16.0 at ISO-2500
+_R0A1245.jpg: Canon EOS R5 with a RF100-500mm F4.5-7.1 L IS USM - 1/100 s, f/4.5 at ISO-800
+_R0A1252.jpg: Canon EOS R5 with a RF100-500mm F4.5-7.1 L IS USM - 1/800 s, f/4.5 at ISO-100
+_R0A1278-Enhanced.jpg: Canon EOS R5 with a RF100-500mm F4.5-7.1 L IS USM - 1/800 s, f/4.5 at ISO-100
+_R0A1258.jpg: Canon EOS R5 with a RF100-500mm F4.5-7.1 L IS USM - 1/500 s, f/7.1 at ISO-100
+_R0A1309.jpg: Canon EOS R5 with a RF16mm F2.8 STM - 8333333333333333/500000000000000000 s, f/22.0 at ISO-200
+_R0A1294.jpg: Canon EOS R5 with a RF16mm F2.8 STM - 1/80 s, f/22.0 at ISO-200
+_R0A1211.jpg: Canon EOS R5 with a RF100-500mm F4.5-7.1 L IS USM + EXTENDER RF2x - 1/1600 s, f/16.0 at ISO-2000
+_R0A1232.jpg: Canon EOS R5 with a RF100-500mm F4.5-7.1 L IS USM + EXTENDER RF2x - 1/1600 s, f/13.0 at ISO-2000
+_R0A1205.jpg: Canon EOS R5 with a RF100-500mm F4.5-7.1 L IS USM + EXTENDER RF2x - 1/1600 s, f/16.0 at ISO-2000
+_R0A1247.jpg: Canon EOS R5 with a RF100-500mm F4.5-7.1 L IS USM - 1/640 s, f/4.5 at ISO-100
+_R0A1286.jpg: Canon EOS R5 with a RF16mm F2.8 STM - 1/160 s, f/22.0 at ISO-400

@@ -1,6 +1,8 @@
 AUTHOR = "Joel Berman"
 SITENAME = "joelberman.net"
 SITEURL = "http://joelberman.net"
+DELETE_OUTPUT_DIRECTORY = True
+OUTPUT_RETENTION = ['.ico']
 
 PATH = "content"
 
@@ -9,6 +11,11 @@ ARTICLE_PATHS = ["articles"]
 PAGE_PATHS = ["pages"]
 
 THEME = "./themes/notmyidea_photos"
+
+PLUGINS = ['neighbors',
+            'photos']
+
+
 
 TIMEZONE = "America/Los_Angeles"
 

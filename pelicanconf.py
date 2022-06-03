@@ -3,6 +3,8 @@ SITENAME = "joelberman.net"
 SITEURL = "http://joelberman.net"
 DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_RETENTION = ['.ico']
+TYPOGRIFY = True
+
 
 PATH = "content"
 

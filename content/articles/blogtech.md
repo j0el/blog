@@ -1,0 +1,11 @@
+Title: Technologies in my blog
+Date: 2022-06-04
+Category: Tech
+Summary: Tech in my blog
+
+Even though I was around at the start of the internet, having an account in 1970, and also very aware of the WWW and web browwsing, having set up one of the first web servers in Hong Kong, there has been a lot of improvement in technology, and by a lot of, I mean literally thousand-fold improvements.  SO when I finally got up the nerve to start a blog I had to decide content and how to host the darn thing. The easiest way would be to host it on my home computer, but it is not always running, so that is not a solution.  And another solution was to use github which has free hosting of pages, but I felt guilty about storing all of my images on there for free although I do believe they enforce a limit on page size anyway.  SO the choice came down to Google or Amazon AWS.  Years ago, trying to use S3 and Glacier for backups, was too much work so I was leaning towards Google and Google is my domain registrar anyway.  But I discovered a great piece of software called [**rclone**](https://rclone.org/) which makes it very easy to do an equivalent of rsync between any local or cloud filesystem hosted on all of the popular protocols, S3, Google (cloud/photos/drive), and many more. And having wored with Amazona bit in the past I went with that.
+
+I only need to host a static site, so all I needed to do was find a domain name, figure out how to use HTTPS and certificates, route http to https, and route joelberman.net to www.joelberman.net.  So getting the page onto Amazon service  such as S3 was merely copying it to a bucket.  The routing was handled by route 53, and the https by cloudfront and the certificate by certificate server.  All almost free Amazon services.  I think it will cost me at most $3/month. And I am sure it is much more reliable and fast than anything in my home office.
+
+SO that took care of the basic hosting.  Then I needed to figure out how to render pages from something sane like markdown to html.  There are a lot of choices, but it came down to either Jekyll which I am familiar with, but I am not a Ruby expert or Pelican, which I know nothing about but it is written in Pythin which I am decent at.
+
